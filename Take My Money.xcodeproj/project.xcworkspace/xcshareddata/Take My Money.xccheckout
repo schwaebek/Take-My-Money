@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>11F71D05-6010-44E3-8208-789C0832BD4D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Take My Money</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>01AFFE590C2978B6FB1EEE700C3527292C951B4A</key>
+		<string>https://github.com/schwaebek/Take-My-Money.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Take My Money.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>01AFFE590C2978B6FB1EEE700C3527292C951B4A</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/schwaebek/Take-My-Money.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>01AFFE590C2978B6FB1EEE700C3527292C951B4A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>01AFFE590C2978B6FB1EEE700C3527292C951B4A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Take%20My%20Money</string>
+		</dict>
+	</array>
+</dict>
+</plist>

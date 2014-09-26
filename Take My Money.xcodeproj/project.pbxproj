@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		276B2F2419D4519E003F521F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276B2F2319D4519E003F521F /* AppDelegate.swift */; };
-		276B2F2619D4519E003F521F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276B2F2519D4519E003F521F /* ViewController.swift */; };
 		276B2F2919D4519E003F521F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 276B2F2719D4519E003F521F /* Main.storyboard */; };
 		276B2F2B19D4519E003F521F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 276B2F2A19D4519E003F521F /* Images.xcassets */; };
 		276B2F2E19D4519E003F521F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 276B2F2C19D4519E003F521F /* LaunchScreen.xib */; };
 		276B2F3A19D4519F003F521F /* Take_My_MoneyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276B2F3919D4519F003F521F /* Take_My_MoneyTests.swift */; };
+		276B2F4419D45294003F521F /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276B2F4319D45294003F521F /* TableViewController.swift */; };
+		276B2F4619D452DE003F521F /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276B2F4519D452DE003F521F /* TableViewCell.swift */; };
+		276B2F4819D45EDF003F521F /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 276B2F4719D45EDF003F521F /* StoreKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +31,15 @@
 		276B2F1E19D4519E003F521F /* Take My Money.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Take My Money.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		276B2F2219D4519E003F521F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		276B2F2319D4519E003F521F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		276B2F2519D4519E003F521F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		276B2F2819D4519E003F521F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		276B2F2A19D4519E003F521F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		276B2F2D19D4519E003F521F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		276B2F3319D4519F003F521F /* Take My MoneyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Take My MoneyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		276B2F3819D4519F003F521F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		276B2F3919D4519F003F521F /* Take_My_MoneyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Take_My_MoneyTests.swift; sourceTree = "<group>"; };
+		276B2F4319D45294003F521F /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		276B2F4519D452DE003F521F /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		276B2F4719D45EDF003F521F /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				276B2F4819D45EDF003F521F /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +64,7 @@
 		276B2F1519D4519E003F521F = {
 			isa = PBXGroup;
 			children = (
+				276B2F4719D45EDF003F521F /* StoreKit.framework */,
 				276B2F2019D4519E003F521F /* Take My Money */,
 				276B2F3619D4519F003F521F /* Take My MoneyTests */,
 				276B2F1F19D4519E003F521F /* Products */,
@@ -77,8 +83,9 @@
 		276B2F2019D4519E003F521F /* Take My Money */ = {
 			isa = PBXGroup;
 			children = (
+				276B2F4319D45294003F521F /* TableViewController.swift */,
+				276B2F4519D452DE003F521F /* TableViewCell.swift */,
 				276B2F2319D4519E003F521F /* AppDelegate.swift */,
-				276B2F2519D4519E003F521F /* ViewController.swift */,
 				276B2F2719D4519E003F521F /* Main.storyboard */,
 				276B2F2A19D4519E003F521F /* Images.xcassets */,
 				276B2F2C19D4519E003F521F /* LaunchScreen.xib */,
@@ -161,6 +168,12 @@
 				TargetAttributes = {
 					276B2F1D19D4519E003F521F = {
 						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = WW3AF2LH6C;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+						};
 					};
 					276B2F3219D4519F003F521F = {
 						CreatedOnToolsVersion = 6.0;
@@ -212,8 +225,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				276B2F2619D4519E003F521F /* ViewController.swift in Sources */,
+				276B2F4619D452DE003F521F /* TableViewCell.swift in Sources */,
 				276B2F2419D4519E003F521F /* AppDelegate.swift in Sources */,
+				276B2F4419D45294003F521F /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,9 +350,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Take My Money/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -346,9 +363,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Take My Money/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
